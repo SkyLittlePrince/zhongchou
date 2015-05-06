@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="./images/logo.ico"/>
+		<title>众筹网</title>
+		<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="./js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="./css/style.css" rel='stylesheet' type='text/css' />
+		<link href="./css/total.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!-- animated-css -->
+		<link href="./css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script type="text/javascript" src="./js/jquery.corner.js"></script> 
+		<script src="./js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<!-- animated-css -->
+		<!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!-- start-smoth-scrolling-->
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!--webfonts-->
+		<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!--End-top-nav-script-->
+	</head>
+	<body>
+		<!--start-top-header-->
+		<div class="top-header bounceInDown" data-wow-delay="0.4s">
+			<div class="containter1">
+				<div class="logo">
+					<a href="#"><img class="zirui" src="http://7xi6l3.com1.z0.glb.clouddn.com/zirui2.png" /></a>
+				</div>
+				<!--start-top-nav-->
+				 <nav class="top-nav">
+				 	<!-- 菜单导航栏 -->
+					<ul class="top-nav">
+						<li><a href="#" class="scroll">众筹项目</a></li>
+						<li><a href="#" class="scroll">发起项目</a></li>
+						<li><a href="#" class="scroll">手机众筹</a></li>
+					</ul>
+					<!-- 导航栏图标 -->
+					<a href="#" id="pull"><img src="http://7xi6l3.com1.z0.glb.clouddn.com/nav-icon.png" title="menu" /></a>
+				</nav>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div>
+		<div class="assortment">
+			<p>全部分类</p>
+			<ul>
+				<li>科技</li>
+				<li>公益</li>
+				<li>娱乐</li>
+				<li>农艺</li>
+			</ul>
+		</div>
+		<div class="assortment sort">
+			<p>项目进程</p>
+			<ul>
+				<li>最新上线</li>
+				<li>即将结束</li>
+				<li>众筹中</li>
+				<li>成功项目</li>
+			</ul>
+		</div>
+		<div class="assortment sort">
+			<p>默认排序</p>
+			<ul>
+				<li>最高目标金额</li>
+				<li>最多金额</li>
+				<li>最多支持</li>
+			</ul>
+		</div>
+	</div>
+	<div>
+		<
+	</div>
+	<!-- footer -->
+	<div class="footer text-center">
+		<div class="container">
+			<div class="footer-inner wow zoomIn" data-wow-delay="0.3s">
+				<ul>
+					<li><a href="#"><img  class="zirui" src="http://7xi6l3.com1.z0.glb.clouddn.com/zirui2.png" title="ruddy" /></a></li>
+				</ul>
+			</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+			 		
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> 
+			</span></a>
+			</div>
+		</div>
+		<!-- End-footer -->
+		</div>
+	</body>
+</html>
+

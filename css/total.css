@@ -1,0 +1,38 @@
+html, body {
+  	font-family: 'Lato', sans-serif;
+    font-size: 100%;
+  	background: #FFf;
+}
+body a {
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.assortment {
+	border: solid 1px;
+  	border-color: #46b3dc;
+  	margin: 80px 10px 10px 130px;
+  	height: 50px;
+  	width: 80%;
+  	border-radius: 10px;
+}
+.assortment p {
+	float: left;
+	margin: auto;
+  	padding: 10px 30px 10px 30px;
+  	font-size: 20px;
+  	font-family: "微软雅黑";
+}
+.assortment ul {
+	list-style: none;
+}
+.assortment ul li{
+	float:left;
+	padding: 13px;
+  	font-family: "微软雅黑";
+}
+.sort {
+	margin: 20px 10px 10px 130px;
+}
